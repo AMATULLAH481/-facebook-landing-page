@@ -1,0 +1,137 @@
+*{box-sizing: border-box}
+
+/*styles for mobile devices*/
+@media (max-width:600px){
+    body{
+        background-color: red;
+    }
+    .container{
+        width: 97%;
+        height:fit-content;
+    }
+    /*styling the top section.*/
+    .top{
+        margin-top: 0.1rem;
+    }
+    #title{
+        font-size: 20px;
+        margin:10px;
+    }
+    .leftheading{
+        margin-left: 14rem;
+        margin-top: 0.4rem;    
+    }
+    #email, #password{
+        padding: 0.2rem 4rem 0rem 0.2rem;
+    }
+    #login{
+        margin: auto;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+    }
+    .signup{
+        height: 70%;
+        margin-top: 2rem;
+        background-color: white;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    #title{
+        font-size: 50px;
+        margin:25px;
+    }
+
+}
+
+body{
+    background-color: blue;
+}
+.container{
+    width: 95%;
+    height: 95vh;
+    margin: auto;
+    background-image:linear-gradient(180deg, darkblue 50%, white 50%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*styling the top section.*/
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2rem;
+}
+#title{
+    color: white;
+    font-size: 30px;
+    margin:15px;
+}
+.leftheading{
+    display: flex;
+    flex-direction: row;
+    margin-left: 54rem;
+    margin-top: 0.5rem;
+    
+}
+#email, #password{
+    padding: 0.2rem 8rem 0rem 0.2rem;
+    background-color: white;
+    
+}
+#login{
+    color: white;
+    background-color:blue;
+    margin: auto;
+    /*padding: top, right, bottom, left*/
+    padding: 0.2rem 1.7rem 0.2rem 1.7rem;
+}
+
+/*styling the content*/
+.content{
+    width: 67vh;
+    height: 58vh;
+    margin: auto;
+}
+.heading{
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+#welcome{
+    font-size: 23px;
+}
+#info{
+    font-size: small;
+}
+.signup{
+    height: 30%;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1rem 1rem 0rem 1rem;
+}
+h3{
+    font-size: 20px;
+}
+input, #signupbotton{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+}
+#fullname{
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+.borderfeature{
+    border-bottom: white;
+    border-right: white;
+    border-left: white;
+}
+input:focus{
+    outline: none;
+}
+#signupbotton{
+    background-color: blue;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    color: white;
+    border: none;
+}
